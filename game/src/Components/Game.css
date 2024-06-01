@@ -1,5 +1,5 @@
-.wrapper{
-    min-height: 100;
+.wrapper {
+    min-height: 100vh; /* Изменено с 100 на 100vh */
     width: 100%;
     background: #222222;
     display: flex;
