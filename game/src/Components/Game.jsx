@@ -19,4 +19,4 @@ const Game = () => {
 
 export default Game
 
-15^20
+
