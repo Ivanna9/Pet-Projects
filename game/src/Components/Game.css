@@ -23,3 +23,9 @@
     color: #222222;
     transition: .3s all ease;
 }
+
+.gameInfo{
+    margin-top: 25px;
+    font-size: large;
+    color: #fff;
+}
