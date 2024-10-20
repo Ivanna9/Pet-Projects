@@ -47,12 +47,14 @@ img{
     width: auto\9; /* для коректного сжатия избр*/
 }
 
+
 .block{
     margin: auto;
     text-align: center;
+
 }
 
-.layer {
+/* .layer {
     width: 100%;
     height: 61px;
     top: 7px;
@@ -64,11 +66,74 @@ img{
     overflow: auto; 
     margin-top: 5px;
     background: #c09c26;
+} */
+
+header{
+    height: 61px;
+    top: 7px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: flex;
+    overflow: auto; 
+    margin-top: 5px;
+    background: #FEFBF1;
+    width: 98%;
+    min-height: 50px;
+    
 }
 
+header{
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
 
-
-.footer{
+footer{
     background-color:#084935;
     color: #fcfcfc;
+    width: 98%;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+#Blog{
+    width: 30px;
+    height: 21px;
+    top: 27px;
+    left: 503px;
+    gap: 0px;
+    opacity: 0px;
+ 
+}
+
+#Press{
+    width: 36px;
+    height: 21px;
+    top: 27px;
+    left: 573px;
+    gap: 0px;
+    opacity: 0px;   
+    margin-left: 40px;    
+}
+
+#Join{
+    width: 48px;
+    height: 21px;
+    top: 27px;
+    left: 649px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 40px;
+
+}
+
+.lock{
+    width: 160px;
+    height: 44px;
+    top: 188px;
+    left: 72px;
+    gap: 0px;
+    opacity: 0px;
+       
 }
