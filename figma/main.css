@@ -8,7 +8,7 @@ body{
     font-size: 1em;
     line-height: 135%;
     font-weight: 400;
-    line-height: 21px;
+    /* line-height: 21px; */
     text-align: left;
     background: #FEFBF1;
     max-width: 720px;
@@ -51,28 +51,21 @@ img{
 .block{
     margin: auto;
     text-align: center;
-
-}
-
-/* .layer {
-    width: 100%;
+    width: 1200px;
     height: 61px;
-    top: 7px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: auto;
-    display: flex;
-    overflow: auto; 
-    margin-top: 5px;
-    background: #c09c26;
-} */
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
 
 header{
     height: 61px;
     top: 7px;
     position: fixed;
-    top: 0;
+    /* top: 0; */
     left: 0;
     overflow: auto;
     display: flex;
@@ -128,6 +121,15 @@ footer{
 
 }
 
+.join{
+    width: 1200px;
+    height: 572px;
+    top: 68px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    position: relative;
+}
 .lock{
     width: 160px;
     height: 44px;
@@ -135,5 +137,26 @@ footer{
     left: 72px;
     gap: 0px;
     opacity: 0px;
-       
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 1.600000023841858px;
+    text-align: left;
+    display: flex;
+    position: relative;
+}
+
+.brand{
+    display: flex;
+    position: relative;
+    width: 848px;
+    height: 264px;
+    top: 253px;
+    left: 72px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 88px;
+    text-align: left;
 }
