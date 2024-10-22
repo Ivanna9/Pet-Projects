@@ -48,7 +48,7 @@ img{
 }
 
 
-.block{
+.wrapperHeader{
     /* margin: auto; */
     text-align: center;
     width: 1200px;
@@ -166,7 +166,7 @@ footer{
     opacity: 0px;
 }
 
-.text{
+.textThem{
     display: flex;
     position: absolute;
 
