@@ -85,7 +85,10 @@ a:active {
 }
 
 .card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  text-align: left;
+  max-width: 312px;
+  margin-bottom: 66px;
 }
 .card img {
   width: 312px;
@@ -97,4 +100,26 @@ a:active {
   overflow: hidden;
   border-radius: 15px;
   margin-right: 60px;
+  margin-bottom: 32px;
+}
+
+.imgContainerRight {
+  overflow: hidden;
+  border-radius: 15px;
+  margin-bottom: 32px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 62px;
+  background: #084935;
+  color: #fefbf1;
+}
+
+.textFooter {
+  text-align: left;
+  padding: 120px 0;
 }
