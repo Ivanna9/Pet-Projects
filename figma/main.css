@@ -136,3 +136,31 @@ h4 {
   text-align: left;
   margin-bottom: 110px;
 }
+
+.partsFooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parts {
+  text-align: left;
+  max-width: 312px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+}
+
+.line {
+  background: #ffffff29;
+}
+
+.wrapperFooter {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.brands {
+  margin-top: 20px;
+}
+
+/* imgContainerRight */
