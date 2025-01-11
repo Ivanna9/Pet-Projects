@@ -157,3 +157,13 @@ footer {
   border-radius: 8px 0px 0px 0px;
   opacity: 0px;
 }
+
+.h3 {
+  display: flex;
+  position: absolute;
+  width: 251px;
+  height: 317px;
+  overflow: hidden;
+  /* border-radius: 15px; */
+  /* margin-right: 60px; */
+}
