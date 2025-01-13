@@ -140,6 +140,13 @@ h4 {
 .partsFooter {
   display: flex;
   flex-wrap: wrap;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 .parts {
@@ -164,3 +171,8 @@ h4 {
 }
 
 /* imgContainerRight */
+
+h3 {
+  max-width: 250px;
+  margin-bottom: 11px;
+}
