@@ -15,6 +15,41 @@ body {
   color: #703412;
 }
 
+/* Для екранів ширше 768px (планшети і десктопи) */
+@media (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+  /* textBrand{   */
+  /* font-size: 60px; */
+  /* font-weight: 400; */
+  /* line-height: 88px; */
+  /* text-align: left; */
+  /* max-width: 850px; */
+  /* } */
+}
+
+/* Для екранів менше 768px (мобільні пристрої) */
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Для дуже маленьких екранів (менше 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  textBrand {
+    font-size: 60px;
+    font-weight: 300px;
+    line-height: 68px;
+    text-align: left;
+    max-width: 750px;
+  }
+}
+
 a {
   color: #000000;
   text-decoration: none;
@@ -91,13 +126,18 @@ a:active {
   margin-bottom: 66px;
 }
 .card img {
+  border: 1px solid violet;
   width: 312px;
   object-fit: cover;
   transform: scale(110%);
 }
 
 .imgContainer {
+  /* border: 3px solid rgb(0, 255, 13); */
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
   border-radius: 15px;
   margin-right: 60px;
   margin-bottom: 32px;
@@ -105,6 +145,7 @@ a:active {
 }
 
 .imgContainerRight {
+  border: 45px solid rgb(17, 0, 255);
   overflow: hidden;
   border-radius: 15px;
   margin-bottom: 32px;
