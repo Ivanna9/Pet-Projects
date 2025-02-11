@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 135%;
+  font-weight: 400;
+  text-align: left;
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  color: #212121;
+}
+
+/* Для екранів ширше 768px  */
+@media (min-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+}
+/* Для екранів менше 768px  */
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Для дуже маленьких екранів */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+.wrHeader {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21.79px;
+  letter-spacing: 0%;
+  display: flex;
+  justify-content: right;
+  column-gap: 30px;
+  height: 47px;
+  align-items: right;
+  text-transform: uppercase;
+}
+a {
+  color: #111111;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+a:hover {
+  color: #cf9f37;
+  text-decoration: none;
+  transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -ms-transition: all.6s ease;
+}
+
+.home {
+  color: #4f5251;
+}
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.sign_up {
+  text-transform: capitalize;
+}
+
+footer {
+  /* margin-top: 62px; */
+  background: #f8f8f8;
+  color: #646464;
+}
