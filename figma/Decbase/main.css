@@ -34,7 +34,12 @@ body {
     font-size: 14px;
   }
 }
-
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 15px;
+  /* border: 2px solid rgb(255, 0, 64); */
+}
 .wrHeader {
   font-family: "Open Sans";
   font-weight: 600;
@@ -47,6 +52,24 @@ body {
   height: 47px;
   align-items: right;
   text-transform: uppercase;
+  margin-top: 34px;
+  border: 2px solid blue;
+}
+.navigation {
+  display: inline-block;
+  border: 2px solid rgb(255, 0, 179);
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: left;
+  text-align: left;
+  column-gap: 384px;
+  margin-right: 80px;
+  height: 47px;
+  width: 151px;
+  border: 2px solid rgb(0, 255, 85);
 }
 a {
   color: #111111;
